@@ -18,13 +18,13 @@
           <a href="#contact" class="hover:text-amber-600 transition">Contact</a>
         </div>
         <a href="#contact"
-          class="bg-slate-900 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-amber-600 transition shadow-xl">
+          class="bg-slate-900 text-white px-4 text-xs lg:text-sm lg:px-6 py-2.5 rounded-full font-bold hover:bg-amber-600 transition shadow-xl">
           DEVIS RAPIDE
         </a>
       </div>
     </nav>
 
-    <section id="accueil" class="min-h-screen flex items-center pt-20 overflow-hidden">
+    <section id="accueil" class="min-h-screen flex items-center pt-32 pb-24 lg:py-32 overflow-hidden">
       <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-16 items-center">
         <div class="lg:col-span-7">
           <h1 class="text-6xl md:text-8xl font-black leading-[0.9] mb-8 text-slate-900">
@@ -50,7 +50,7 @@
       </div>
     </section>
 
-    <section id="services" class="py-32 bg-slate-900 text-white rounded-[4rem] mx-4">
+    <section id="services" class="pt-24 pb-24 lg:py-32 bg-slate-900 text-white rounded-[3rem] mx-4">
       <div class="max-w-7xl mx-auto px-6">
         <div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <div class="max-w-xl">
@@ -82,11 +82,11 @@
 
         <form class="space-y-4" @submit.prevent="handleSubmit">
           <input required type="text" placeholder="Votre Nom"
-            class="w-full bg-white border-b-2 border-slate-200 p-6 focus:border-amber-500 outline-none transition-colors text-xl font-medium">
+            class="w-full bg-white border-b-2 border-slate-200 p-6 focus:border-amber-500 outline-none transition-colors text-xl font-medium rounded-2xl">
           <input required type="email" placeholder="Email"
-            class="w-full bg-white border-b-2 border-slate-200 p-6 focus:border-amber-500 outline-none transition-colors text-xl font-medium">
+            class="w-full bg-white border-b-2 border-slate-200 p-6 focus:border-amber-500 outline-none transition-colors text-xl font-medium rounded-2xl">
           <textarea required placeholder="Dites-nous tout..." rows="3"
-            class="w-full bg-white border-b-2 border-slate-200 p-6 focus:border-amber-500 outline-none transition-colors text-xl font-medium" />
+            class="w-full bg-white border-b-2 border-slate-200 p-6 focus:border-amber-500 outline-none transition-colors text-xl font-medium rounded-2xl" />
 
           <div class="pt-10">
             <button type="submit"
