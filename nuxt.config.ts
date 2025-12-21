@@ -11,11 +11,12 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Le Bistro Gourmand - Cuisine Authentique", // <--- Changement ici
+      title: "Forge & Flux | Artisan Plombier & Design d'Eau",
       meta: [
         {
           name: "description",
-          content: "Cuisine moderne et raffinée au cœur de la ville.",
+          content:
+            "Expertise en plomberie haute performance et rénovation de salles de bain design à Paris. Intervention rapide et devis transparent.",
         },
       ],
     },
