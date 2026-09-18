@@ -109,7 +109,8 @@
 
     <footer class="py-20 bg-white border-t border-slate-100">
       <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
-        <p class="text-slate-400 font-medium">© 2024 Forge & Flux Artisanat</p>
+        <p class="text-slate-400 font-medium">© 2026 Forge & Flux tous droits réservés — site édité par La
+          Fabrique du Code</p>
         <div class="flex gap-8 text-slate-900 font-bold text-sm uppercase">
           <a href="#" class="hover:text-amber-500">Instagram</a>
           <a href="#" class="hover:text-amber-500">LinkedIn</a>
